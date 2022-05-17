@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    background: #333;
+}
+/* 设置数字和文字的样式*/
+.num{
+    width: 25%;
+    float: left;
+    color: gold;
+    font-size: 20px;
+    /*使用弹性布局 */
+    display: flex;
+    align-items: center; /* 水平居中 */
+    justify-content: center; /*垂直居中*/
+
+}
+.txt{
+    width: 25%;
+    float: left;
+    font-family: "幼圆";
+    /*使用弹性布局 */
+    display: flex;
+    align-items: center; /* 水平居中 */
+    justify-content: center; /*垂直居中*/
+}
+#title{
+    position: absolute;
+    width: 40%;
+    height:10%;
+    top: 0;
+    left: 30%;
+   /* background: #666666; */
+    color: white;
+    font-size: 30px;
+    /*使用弹性布局 */
+    display: flex;
+    align-items: center; /* 水平居中 */
+    justify-content: center; /*垂直居中*/
+}
+#time{
+    position: absolute;
+    /*width: 30%;*/
+    height:10%;
+    top: 5%;
+    right: 2%;
+    font-size: 20px;
+    color: #FFFFFF;
+    /*background: #888888;*/
+
+}
+#c1{
+    position: absolute;
+    width: 40%;
+    height:30%;
+    top: 10%;
+    left: 30%;
+    background: #777777;
+    
+}
+#c2{
+    position: absolute;
+    width: 40%;
+    height:60%;
+    top: 40%;
+    left: 30%;
+    background: #666666;
+    
+}
+#l1{
+    position: absolute;
+    width: 30%;
+    height:45%;
+    top: 10%;
+    left: 0;
+    background: #888888;
+    
+}
+#l2{
+    position: absolute;
+    width: 30%;
+    height:45%;
+    top: 55%;
+    left: 0;
+    background: #777777;
+    
+}
+#r1{
+    position: absolute;
+    width: 30%;
+    height:45%;
+    top: 10%;
+    right: 0;
+    background: #666666;
+    
+}
+#r2{
+    position: absolute;
+    width: 30%;
+    height:45%;
+    top: 55%;
+    right: 0;
+    background: #777777;
+    
+}

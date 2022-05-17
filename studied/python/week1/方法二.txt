@@ -1,0 +1,8 @@
+#方法二、ordNetLemmatizer类，词性归一化，获得词根
+from nltk.stem import WordNetLemmatizer
+wordnet_lem=WordNetLemmatizer()
+#还原books单词的基本形式
+wordnet_lem.lemmatize('books')
+wordnet_lem.lemmatize('went')
+#可以在lemmatize()方法将词性传入pos参数,这里指定魏动词
+wordnet_lem.lemmatize('went',pos='v')
